@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Anunciar</title>
+</head>
+<body>
+    <div class="subBody">
+        <header>
+            <h1>Sabath Carros</h1>
+            <nav>
+                <menu>
+                    <ul>
+                        <a href="Anuncios.html">
+                            <li>Anúncios</li>
+                        </a>
+                        <a href="cadastro-veiculo.html">
+                            <li>Anunciar</li>
+                        </a>
+                    </ul>
+                </menu>
+            </nav>
+        </header>
+        <main>
+            <div class="gray-background">
+                <form action="" class="form" onsubmit="cadastrarVeiculo(event)" >
+                    <h1>Preencha os campos abaixo</h1>
+                    <br />
+                    <fieldset>
+                        <legend>Cadastro de veículos</legend>
+                        <label for="veiculoMarca"
+                            >Marca:
+                            <input name="veiculoMarca" id="veiculoMarca" />
+                        </label
+                        ><br />
+                        <label for="veiculoModelo"
+                            >Modelo:
+                            <input name="veiculoModelo" id="veiculoModelo" />
+                        </label>
+                        <br />
+                        <label for="veiculoTele">Telefone:
+                            <input
+                                type="text"
+                                name="veiculoTele"
+                                id="veiculoTele"
+                                required
+                            />
+                        </label
+                        ></br>
+                        <label for="veiculoAno">Ano:
+                            <input type="tel" name="veiculoAno" id="veiculoAno" required />
+                        </label
+                        ><br />
+                        <label for="veiculoKm">KM:
+                            <input type="tel" name="veiculoKm" id="veiculoKm" required />
+                        </label>
+                        <br />
+                        <label for="veiculoValor">Valor R$:
+                            <input
+                                type="tel"
+                                name="veiculoValor"
+                                id="veiculoValor"
+                                required
+                            />
+                        </label>
+                        <br />
+                        <label for="img">
+                            Envie sua imagem
+                            <input type="file" name="img" id="img" accept="image/*" />
+                        </label>
+                        <br />
+
+                        <button type="submit" class="btn btnVeiculo" id="btnVeiculo">
+                            Anunciar veículo
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="../JavaScript/cadastro-veiculo.js"></script>
+    <script src="../firebase-init.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('../tipos-de-carros-capa.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.subBody {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.gray-background {
+  background-color: rgba(37, 35, 35, 0.7); 
+  padding: 20px; 
+  border-radius: 5px; 
+  color: black; 
+}
+
+  header {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    margin-bottom: 25px;
+  }
+  
+  header h1 {
+    text-align: center;
+    color: black;
+  }
+  
+  nav menu {
+    display: flex;
+    flex-direction: column;
+    gap: px;
+    align-items: flex-end;
+    color: black;
+  }
+  
+  menu ul {
+    display: flex;
+    margin-right: 20px;
+    gap: 10px;
+    justify-content: stretch;
+    align-items:center; 
+    padding-top: 20px
+  }
+  
+  menu li {
+    list-style: none;
+  }
+
+  menu a {  
+    width: 80px;
+    height: 30px;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px;
+    color: black;
+    text-transform: uppercase
+  }
+  
+  
+  main {
+    padding: 40px;
+  }
+
+  fieldset {
+    padding: 10px;
+  }
+  
+  fieldset > * {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  fieldset button {
+    padding: 10px 5px;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .car-card {
+    width: 250x;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 3px 5px 2px #0007;
+  }
+  
+  .carImg {
+    width: 150px;
+    height: auto;
+    align-self: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  .carDescription {
+    margin-bottom: 5px;
+  }
+  
+  .ulCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 10px
+  }
+  
+  .list-param {
+    list-style: none;
+  }
+  
+  .btnComprar {
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .btnExcluir {
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-weight: bold; 
+  }
+
+  .btnVeiculo{
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-weight: bold; 
+  }
+
+  .form{
+    font-size: 18px;
+    padding: 5px;
+    color: #f5f5f5;
+    
+  }
+
+  .input{
+    padding-top: 5px;
+  }
+
+  
